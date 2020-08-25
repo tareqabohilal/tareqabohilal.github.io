@@ -1,0 +1,275 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>News</title>
+    <style>
+        body {
+            max-width: 100%;
+            max-height: 100%;
+            font-family: sans-serif;
+            margin: 0px;
+        }
+
+        div.main-box {
+            box-sizing: border-box;
+            border: 8px solid white;
+            width: 100%;
+            height: 100%;
+            padding: 3px;
+            color: rgb(80, 80, 80)
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main a {
+            color: rgb(80, 80, 80);
+        }
+
+        .main {
+            height: 70px;
+            width: 100%;
+            display: flex;
+            margin: 5px auto;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px 2px rgba(75, 75, 75, 0.3);
+            padding: 6px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        div.logo {
+            margin-right: 30%;
+            font-weight: lighter;
+        }
+
+        h1 {
+            font-weight: lighter;
+        }
+
+        .bold {
+            font-weight: 1000;
+        }
+
+        .aside {
+            margin-top: 30px;
+            display: flex;
+        }
+
+        .left {
+            margin-right: 10px;
+            box-sizing: border-box;
+            padding: 15px;
+            box-shadow: 2px 2px 4px 2px rgba(75, 75, 75, 0.3);
+            align-items: flex-start;
+            height: 30em;
+            width: 50%;
+            font-weight: bold;
+            text-align: left;
+        }
+
+        .left>div {
+            margin-bottom: 5px;
+        }
+
+        .preview {
+            padding: 5px;
+            display: flex;
+            justify-content: flex-start;
+            flex-direction: column;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px 2px rgba(75, 75, 75, 0.3);
+            height: 10em;
+            width: 100%;
+            margin-bottom: 10px;
+            padding: 2px 10px 2px 10px;
+        }
+
+        .date {
+            align-self: flex-end;
+            font-size: smaller;
+            font-weight: bold;
+            color: rgb(110, 109, 109);
+        }
+
+        .imp {
+            font-size: x-large;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .readmore {
+            margin-top: 20px;
+            align-self: flex-end;
+            color: #7a8cff;
+            font-weight: bold;
+        }
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 96%;
+
+            background-color: #737373;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .newsletter li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .signup {
+            margin-top: 4px;
+            background-color: #7a8cff;
+            height: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-box">
+
+        <div class="main">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+
+            <div>
+                <a href="flex-box-news.html">
+                    <h3 class="bold">
+                        News
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="flex-box-products.html">
+                    <h3>
+                        Products
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <h3>
+                        Services
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <h3>
+                        Contact
+                    </h3>
+                </a>
+            </div>
+
+        </div>
+        <div class="aside">
+            <div class="left">
+                <div>
+                    Webpage relaunch! <br />
+                </div>
+                <div>Big Words.</div>
+            </div>
+
+            <div class="right">
+                <div class="preview">
+                    <div class="date">18.Aug</div>
+                    <div class="imp">
+                        Webpage relaunch!
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+                        id fugit hic! Delectus a porro dolorem, id quas dicta doloribus
+                        perspiciatis vero quis sapiente amet modi tenetur tempora dolore
+                        nihil aut deleniti voluptate pariatur repellendus vitae facilis
+                        ducimus ab earum? Eligendi, vel.
+                    </div>
+                    <a class="readmore" href="">Read More</a>
+                </div>
+                <div class="preview">
+                    <div class="date">18.Aug</div>
+                    <div class="imp">
+                        Big Words.
+                    </div>
+                    <div>
+                        Lorem ipsum dolor sit amet consectetur, adipisicing elit. Ullam
+                        id fugit hic! Delectus a porro dolorem, id quas dicta doloribus
+                        perspiciatis vero quis sapiente amet modi tenetur tempora dolore
+                        nihil aut deleniti voluptate pariatur repellendus vitae facilis
+                        ducimus ab earum? Eligendi, vel.
+                    </div>
+                    <a class="readmore" href="">Read More</a>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-nav">
+            <h1>Logo</h1>
+        </div>
+
+
+        <div>
+            <a href="flex-box-news.html">
+                <h5 class="bold">
+                    News
+                </h5>
+            </a>
+
+            <a href="flex-box-products.html">
+                <h5>
+                    Products
+                </h5>
+            </a>
+
+            <a href="#">
+                <h5>
+                    Services
+                </h5>
+            </a>
+
+            <a href="#">
+                <h5>
+                    Contact
+                </h5>
+            </a>
+        </div>
+
+
+        <div class="newsletter">
+            <ul>
+                <li>
+                    <h2>Newsletter</h2>
+                </li>
+                <li class="signup"><input type="email" placeholder="E-Mail"></li>
+                <div class="signup"><a href="#">Signup</a></div>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>

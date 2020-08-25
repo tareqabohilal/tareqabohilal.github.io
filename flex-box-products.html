@@ -1,0 +1,209 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>products</title>
+    <style>
+        body {
+            max-width: 100%;
+            max-height: 100%;
+            font-family: sans-serif;
+            margin: 0px;
+        }
+
+        div.main-box {
+            box-sizing: border-box;
+            border: 8px solid white;
+            width: 100%;
+            height: 100%;
+            padding: 3px;
+            color: rgb(80, 80, 80)
+        }
+
+        a {
+            text-decoration: none;
+        }
+
+        .main a {
+            color: rgb(80, 80, 80);
+        }
+
+        .main {
+            height: 70px;
+            width: 100%;
+            display: flex;
+            margin: 5px auto;
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px 2px rgba(75, 75, 75, 0.3);
+            padding: 6px;
+            align-items: center;
+            justify-content: space-evenly;
+        }
+
+        div.logo {
+            margin-right: 30%;
+            font-weight: lighter;
+        }
+
+        h1 {
+            font-weight: lighter;
+        }
+
+        .bold {
+            font-weight: 1000;
+        }
+
+        .aside {
+            padding: 0;
+            width: 100%;
+            margin-top: 30px;
+            display: flex;
+            height: 30em;
+            flex-wrap: wrap;
+            justify-content: center;
+            align-content: flex-start;
+        }
+
+
+        .footer {
+            position: fixed;
+            bottom: 0;
+            width: 96%;
+            background-color: #737373;
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+
+        }
+
+        .footer a {
+            color: white;
+        }
+
+        .newsletter li {
+            list-style: none;
+            display: flex;
+            flex-direction: column;
+        }
+
+        .signup {
+            margin-top: 4px;
+            background-color: #7a8cff;
+            height: 20px;
+            box-sizing: border-box;
+            text-align: center;
+        }
+
+        .boxes {
+            box-sizing: border-box;
+            box-shadow: 2px 2px 4px 2px rgba(75, 75, 75, 0.3);
+            width: 32%;
+            height: 28%;
+            margin: 6px;
+
+        }
+    </style>
+
+</head>
+
+<body>
+    <div class="main-box">
+
+        <div class="main">
+            <div class="logo">
+                <h1>Logo</h1>
+            </div>
+
+
+            <div>
+                <a href="flex-box-news.html">
+                    <h3>
+                        News
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="flex-box-products.html">
+                    <h3 class="bold">
+                        Products
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <h3>
+                        Services
+                    </h3>
+                </a>
+            </div>
+            <div>
+                <a href="#">
+                    <h3>
+                        Contact
+                    </h3>
+                </a>
+            </div>
+
+        </div>
+        <div class="aside">
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+            <div class="boxes"></div>
+
+        </div>
+    </div>
+
+    <div class="footer">
+
+        <div class="footer-nav">
+            <h1>Logo</h1>
+        </div>
+
+
+        <div>
+            <a href="flex-box-news.html">
+                <h5>
+                    News
+                </h5>
+            </a>
+
+            <a href="flex-box-products.html">
+                <h5 class="bold">
+                    Products
+                </h5>
+            </a>
+
+            <a href="#">
+                <h5>
+                    Services
+                </h5>
+            </a>
+
+            <a href="#">
+                <h5>
+                    Contact
+                </h5>
+            </a>
+        </div>
+
+
+        <div class="newsletter">
+            <ul>
+                <li>
+                    <h2>Newsletter</h2>
+                </li>
+                <li class="signup"><input type="email" placeholder="E-Mail"></li>
+                <div class="signup"><a href="#">Signup</a></div>
+            </ul>
+        </div>
+    </div>
+
+</body>
+
+</html>
